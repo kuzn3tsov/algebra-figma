@@ -5,16 +5,18 @@
     <title>Lem Treursić - CSS lesson</title>
     <!--CSS-->
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
         .wrapper {
+            font-family: "Inter" ;
             background-color: #eff3f8;
             border: 1px solid #cad7e8;
             border-radius: 16px;
             padding: 32px;
             width: 768px;
             margin-top: 135px;
-            margin-left: 336px;
-            margin: 16px;
-            font-family: sans-serif;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 16px;
             font-size: 16px;
             font-weight: 400;
             line-height: 150%;
@@ -43,6 +45,9 @@
             border-left: 8px solid red;
             padding: 32px;
             margin: 16px;
+        }
+        .wrapper *:last-child {
+            margin-bottom: 0px;
         }
     </style>
     <!--<link rel="stylesheet" href="./css/style.css">-->
