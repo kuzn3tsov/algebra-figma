@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lem Treursić - CSS lesson</title>
+    <!--CSS-->
+    <style>
+        .wrapper {
+            background-color: #eff3f8;
+            border: 1px solid #cad7e8;
+            border-radius: 16px;
+            padding: 32px;
+            width: 768px;
+            margin-top: 135px;
+            margin-left: 336px;
+            margin: 16px;
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 150%;
+        }
+        h1 {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 125%;
+        }
+        h2 {
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 150%;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .box{
+            background-color: #cad7e8;
+            border-radius: 16px;
+            padding: 32px;
+            margin: 16px;
+        }
+        .warning-box{
+            background-color: #cad7e8;
+            border-radius: 0 16px 16px 0;
+            border-left: 8px solid red;
+            padding: 32px;
+            margin: 16px;
+        }
+    </style>
+    <!--<link rel="stylesheet" href="./css/style.css">-->
+    <!--Meta podaci za tražilice-->
+    <meta charset="UTF-8">
+    <meta name="description" content="CSS lesson">
+    <meta name="keywords" content="HTML5,Company,website,portfolio, developer">
+    <meta name="author" content="Lem Treursić">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+                <h1>How to Use CSS Box Model Effectively</h1>
+                <p>
+                    When designing web layouts, understanding the relationship between typography and the box model is crucial. Each text
+                    element occupies space that can be controlled through padding, margin, and border properties.
+                </p>
+        </header>
+        <main>
+            <section>
+                <div class="box">
+                    <h2>KEY CONCEPTS</h2>
+                    <ul>
+                        <li>Content - The actual text or content inside the element</li>
+                        <li>Padding - Space between content and border</li>
+                        <li>Border - The line around the padding and content</li>
+                        <li>Margin - Space outside the border, between elements</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="warning-box">
+                    <h2>PRO TIP</h2>
+                    <p>
+                        Use consistent spacing values to create visual hierarchy and improve readability. Notice how this callout uses padding
+                        and a left border for emphasis.w
+                    </p>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
